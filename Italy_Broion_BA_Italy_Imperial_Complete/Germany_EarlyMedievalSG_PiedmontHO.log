@@ -1,0 +1,465 @@
+qpAdm: parameter file: parqpAdm
+### THE INPUT PARAMETERS
+##PARAMETER NAME: VALUE
+DIR: ../data
+S1: v62.0_HO_updated_packed
+indivname: ../data/v62.0_HO_updated_packed.ind
+snpname: ../data/v62.0_HO_updated_packed.snp
+genotypename: ../data/v62.0_HO_updated_packed.geno
+popleft: leftsrc
+popright: right1_posth_recent_all_snps_corrected_central_euro
+allsnps: YES
+inbreed: YES
+details: YES
+summary: YES
+##  qpAdm -p parqpAdm
+## qpAdm version: 2050
+seed: 1028423133
+inbreed set YES
+tmp: /tmp/fsx.800030
+
+left pops:
+         Piedmont.HO      4
+Germany_EarlyMedieval.SG     19
+  Italy_Broion_BA.SG      2
+   Italy_Imperial.SG     36
+
+right pops:
+  Ethiopia_4500BP.SG      2
+                 WHG      3
+Russia_YuzhniyOleniyOstrov_Mesolithic.AG     18
+ Iran_GanjDareh_N.AG      8
+      Jordan_PPNB.AG      7
+  Israel_Natufian.AG      6
+Morocco_Iberomaurusian.AG      7
+Turkey_Marmara_Barcin_N.AG     23
+   Germany_EN_LBK.AG     69
+Russia_Samara_EBA_Yamnaya.AG      9
+Italy_North_Remedello_C.SG      2
+Possible_Gauls_Verona      3
+France_SouthEast_IA2.AG      6
+     Slovenia_EIA.AG     15
+      Croatia_EIA.AG     16
+Austria_IA_LaTene.AG      3
+Germany_Hallstat_IronAge.AG     55
+France_GrandEst_IA2.SG      6
+France_Metz_GalloRoman.SG      3
+Germany_Hallstatt_Cisalpine.AG      3
+
+codimension 1
+f4info: 
+f4rank: 2 dof:     17 chisq:    15.843 tail:          0.534965007 dofdiff:     19 chisqdiff:   -15.843 taildiff:                    1
+B:
+          scale     1.000     1.000 
+            WHG     2.510    -0.811 
+Russia_YuzhniyOleniyOstrov_Mesolithic.AG     2.168    -1.994 
+Iran_GanjDareh_N.AG    -0.382    -1.480 
+ Jordan_PPNB.AG    -0.622     0.864 
+Israel_Natufian.AG    -0.415     0.486 
+Morocco_Iberomaurusian.AG    -0.305     0.415 
+Turkey_Marmara_Barcin_N.AG    -0.339     1.568 
+Germany_EN_LBK.AG    -0.101     1.660 
+Russia_Samara_EBA_Yamnaya.AG     1.371    -1.440 
+Italy_North_Remedello_C.SG     0.341     1.307 
+Possible_Gauls_Verona     0.865    -0.237 
+France_SouthEast_IA2.AG     0.845     0.979 
+Slovenia_EIA.AG     0.620     0.560 
+ Croatia_EIA.AG     0.556     0.507 
+Austria_IA_LaTene.AG     0.635     0.183 
+Germany_Hallstat_IronAge.AG     0.811     0.162 
+France_GrandEst_IA2.SG     0.766     0.550 
+France_Metz_GalloRoman.SG     0.887    -0.001 
+Germany_Hallstatt_Cisalpine.AG     0.698     0.270 
+A:
+          scale   408.621   819.928 
+Germany_EarlyMedieval.SG     0.683    -1.031 
+Italy_Broion_BA.SG     0.273     1.306 
+Italy_Imperial.SG    -1.568    -0.481 
+
+
+full rank
+f4info: 
+f4rank: 3 dof:      0 chisq:     0.000 tail:                    1 dofdiff:     17 chisqdiff:    15.843 taildiff:          0.534965007
+B:
+          scale   422.232   443.201   253.482 
+            WHG     2.097     0.486    -2.396 
+Russia_YuzhniyOleniyOstrov_Mesolithic.AG     2.485    -0.358    -1.907 
+Iran_GanjDareh_N.AG     0.381    -0.807     0.492 
+ Jordan_PPNB.AG    -1.112     0.726     0.380 
+Israel_Natufian.AG    -0.872     0.137     0.157 
+Morocco_Iberomaurusian.AG    -0.233     1.148     0.315 
+Turkey_Marmara_Barcin_N.AG    -1.181     1.423     0.001 
+Germany_EN_LBK.AG    -1.135     1.411    -0.261 
+Russia_Samara_EBA_Yamnaya.AG     1.681    -0.060    -1.179 
+Italy_North_Remedello_C.SG    -0.366     2.341    -0.486 
+Possible_Gauls_Verona     0.104    -0.556    -1.151 
+France_SouthEast_IA2.AG    -0.052     1.296    -1.030 
+Slovenia_EIA.AG    -0.034     0.883    -0.799 
+ Croatia_EIA.AG     0.067     1.008    -0.673 
+Austria_IA_LaTene.AG     0.262     0.897    -0.722 
+Germany_Hallstat_IronAge.AG     0.404     0.833    -0.889 
+France_GrandEst_IA2.SG    -0.147     0.508    -1.016 
+France_Metz_GalloRoman.SG     0.523     0.657    -0.958 
+Germany_Hallstatt_Cisalpine.AG     0.207     0.802    -0.825 
+A:
+          scale     1.732     1.732     1.732 
+Germany_EarlyMedieval.SG     1.732     0.000     0.000 
+Italy_Broion_BA.SG     0.000     1.732     0.000 
+Italy_Imperial.SG     0.000     0.000     1.732 
+
+
+best coefficients:     0.381     0.386     0.233 
+totmean:      0.381     0.386     0.233 
+zzevarboot
+    0.222294443     0.470736402     0.306969155 
+    0.000528466    -0.002384522 
+    0.002193793     0.001526322 
+   -0.003746868    -0.000613837 
+zzevarboot2
+    0.510209995     0.324033934     0.165756071 
+    0.001950498    -0.000930391 
+   -0.000952710     0.001829853 
+   -0.004141346    -0.000713337 
+boot mean:     0.380     0.388     0.232 
+bootstrap saimpling of F-coeffs: 1000
+zzjmean     0.380     0.388     0.232 
+      std. errors:     0.046     0.072     0.052 
+
+error covariance (* 1,000,000)
+      2133      -2324        191 
+     -2324       5198      -2874 
+       191      -2874       2683 
+
+
+summ: Piedmont.HO    3      0.534965     0.380     0.388     0.232       2133      -2324        191       5198      -2874   ...
+      2683 
+
+    fixed pat  wt  dof     chisq       tail prob
+          000  0    17    15.843        0.534965     0.381     0.386     0.233 
+          001  1    18    30.294       0.0346885     0.362     0.638     0.000 
+          010  1    18    62.676     7.50612e-07     0.555     0.000     0.445 
+          100  1    18    56.192      8.3122e-06     0.000     0.947     0.053 
+          011  2    19   244.273               0     1.000     0.000     0.000 
+          101  2    19    55.570     1.90023e-05     0.000     1.000     0.000 
+          110  2    19   463.652               0     0.000     0.000     1.000 
+best pat:          000         0.534965              -  -
+best pat:          001        0.0346885  chi(nested):    14.450 p-value for nested model:     0.000143916
+best pat:          101      1.90023e-05  chi(nested):    25.277 p-value for nested model:     4.96716e-07
+
+coeffs:     0.381     0.386     0.233 
+
+## dscore:: f_4(Base, Fit, Rbase, right2)
+## genstat:: f_4(Base, Fit, right1, right2)
+
+details: Germany_EarlyMedieval.SG                  WHG     0.004965    5.067369
+details:   Italy_Broion_BA.SG                  WHG     0.001097    0.711856
+details:    Italy_Imperial.SG                  WHG    -0.009451  -12.001750
+dscore:                  WHG f4:     0.000112 Z:     0.119660
+
+details: Germany_EarlyMedieval.SG Russia_YuzhniyOleniyOstrov_Mesolithic.AG     0.005886    6.578474
+details:   Italy_Broion_BA.SG Russia_YuzhniyOleniyOstrov_Mesolithic.AG    -0.000809   -0.570420
+details:    Italy_Imperial.SG Russia_YuzhniyOleniyOstrov_Mesolithic.AG    -0.007523  -10.760931
+dscore: Russia_YuzhniyOleniyOstrov_Mesolithic.AG f4:     0.000175 Z:     0.211879
+
+details: Germany_EarlyMedieval.SG  Iran_GanjDareh_N.AG     0.000903    1.056473
+details:   Italy_Broion_BA.SG  Iran_GanjDareh_N.AG    -0.001821   -1.340856
+details:    Italy_Imperial.SG  Iran_GanjDareh_N.AG     0.001941    2.763496
+dscore:  Iran_GanjDareh_N.AG f4:     0.000093 Z:     0.116223
+
+details: Germany_EarlyMedieval.SG       Jordan_PPNB.AG    -0.002635   -2.550319
+details:   Italy_Broion_BA.SG       Jordan_PPNB.AG     0.001639    0.960655
+details:    Italy_Imperial.SG       Jordan_PPNB.AG     0.001499    1.886744
+dscore:       Jordan_PPNB.AG f4:    -0.000021 Z:    -0.021892
+
+details: Germany_EarlyMedieval.SG   Israel_Natufian.AG    -0.002066   -1.956721
+details:   Italy_Broion_BA.SG   Israel_Natufian.AG     0.000308    0.175406
+details:    Italy_Imperial.SG   Israel_Natufian.AG     0.000620    0.702042
+dscore:   Israel_Natufian.AG f4:    -0.000523 Z:    -0.510485
+
+details: Germany_EarlyMedieval.SG Morocco_Iberomaurusian.AG    -0.000553   -0.621789
+details:   Italy_Broion_BA.SG Morocco_Iberomaurusian.AG     0.002591    1.846479
+details:    Italy_Imperial.SG Morocco_Iberomaurusian.AG     0.001243    1.687026
+dscore: Morocco_Iberomaurusian.AG f4:     0.001080 Z:     1.308192
+
+details: Germany_EarlyMedieval.SG Turkey_Marmara_Barcin_N.AG    -0.002797   -3.396630
+details:   Italy_Broion_BA.SG Turkey_Marmara_Barcin_N.AG     0.003211    2.518847
+details:    Italy_Imperial.SG Turkey_Marmara_Barcin_N.AG     0.000004    0.005778
+dscore: Turkey_Marmara_Barcin_N.AG f4:     0.000176 Z:     0.231867
+
+details: Germany_EarlyMedieval.SG    Germany_EN_LBK.AG    -0.002687   -3.293931
+details:   Italy_Broion_BA.SG    Germany_EN_LBK.AG     0.003185    2.562774
+details:    Italy_Imperial.SG    Germany_EN_LBK.AG    -0.001029   -1.579548
+dscore:    Germany_EN_LBK.AG f4:    -0.000033 Z:    -0.045253
+
+details: Germany_EarlyMedieval.SG Russia_Samara_EBA_Yamnaya.AG     0.003981    4.686905
+details:   Italy_Broion_BA.SG Russia_Samara_EBA_Yamnaya.AG    -0.000135   -0.099652
+details:    Italy_Imperial.SG Russia_Samara_EBA_Yamnaya.AG    -0.004650   -6.856565
+dscore: Russia_Samara_EBA_Yamnaya.AG f4:     0.000380 Z:     0.472345
+
+details: Germany_EarlyMedieval.SG Italy_North_Remedello_C.SG    -0.000868   -0.758958
+details:   Italy_Broion_BA.SG Italy_North_Remedello_C.SG     0.005282    2.821807
+details:    Italy_Imperial.SG Italy_North_Remedello_C.SG    -0.001918   -2.039792
+dscore: Italy_North_Remedello_C.SG f4:     0.001262 Z:     1.148571
+
+details: Germany_EarlyMedieval.SG Possible_Gauls_Verona     0.000247    0.227678
+details:   Italy_Broion_BA.SG Possible_Gauls_Verona    -0.001255   -0.736460
+details:    Italy_Imperial.SG Possible_Gauls_Verona    -0.004541   -5.290811
+dscore: Possible_Gauls_Verona f4:    -0.001449 Z:    -1.427977
+
+details: Germany_EarlyMedieval.SG France_SouthEast_IA2.AG    -0.000124   -0.140799
+details:   Italy_Broion_BA.SG France_SouthEast_IA2.AG     0.002924    2.096206
+details:    Italy_Imperial.SG France_SouthEast_IA2.AG    -0.004065   -5.561889
+dscore: France_SouthEast_IA2.AG f4:     0.000135 Z:     0.163618
+
+details: Germany_EarlyMedieval.SG      Slovenia_EIA.AG    -0.000081   -0.100963
+details:   Italy_Broion_BA.SG      Slovenia_EIA.AG     0.001993    1.600925
+details:    Italy_Imperial.SG      Slovenia_EIA.AG    -0.003154   -4.823674
+dscore:      Slovenia_EIA.AG f4:     0.000004 Z:     0.005233
+
+details: Germany_EarlyMedieval.SG       Croatia_EIA.AG     0.000158    0.197075
+details:   Italy_Broion_BA.SG       Croatia_EIA.AG     0.002274    1.866315
+details:    Italy_Imperial.SG       Croatia_EIA.AG    -0.002656   -4.195564
+dscore:       Croatia_EIA.AG f4:     0.000320 Z:     0.441710
+
+details: Germany_EarlyMedieval.SG Austria_IA_LaTene.AG     0.000620    0.690563
+details:   Italy_Broion_BA.SG Austria_IA_LaTene.AG     0.002025    1.385834
+details:    Italy_Imperial.SG Austria_IA_LaTene.AG    -0.002850   -4.010736
+dscore: Austria_IA_LaTene.AG f4:     0.000354 Z:     0.419040
+
+details: Germany_EarlyMedieval.SG Germany_Hallstat_IronAge.AG     0.000957    1.201294
+details:   Italy_Broion_BA.SG Germany_Hallstat_IronAge.AG     0.001880    1.502368
+details:    Italy_Imperial.SG Germany_Hallstat_IronAge.AG    -0.003506   -5.427486
+dscore: Germany_Hallstat_IronAge.AG f4:     0.000273 Z:     0.370188
+
+details: Germany_EarlyMedieval.SG France_GrandEst_IA2.SG    -0.000348   -0.356555
+details:   Italy_Broion_BA.SG France_GrandEst_IA2.SG     0.001147    0.727512
+details:    Italy_Imperial.SG France_GrandEst_IA2.SG    -0.004007   -5.134658
+dscore: France_GrandEst_IA2.SG f4:    -0.000624 Z:    -0.687311
+
+details: Germany_EarlyMedieval.SG France_Metz_GalloRoman.SG     0.001238    1.253983
+details:   Italy_Broion_BA.SG France_Metz_GalloRoman.SG     0.001483    0.977840
+details:    Italy_Imperial.SG France_Metz_GalloRoman.SG    -0.003779   -4.733787
+dscore: France_Metz_GalloRoman.SG f4:     0.000163 Z:     0.180430
+
+details: Germany_EarlyMedieval.SG Germany_Hallstatt_Cisalpine.AG     0.000490    0.507915
+details:   Italy_Broion_BA.SG Germany_Hallstatt_Cisalpine.AG     0.001810    1.123958
+details:    Italy_Imperial.SG Germany_Hallstatt_Cisalpine.AG    -0.003253   -4.034643
+dscore: Germany_Hallstatt_Cisalpine.AG f4:     0.000128 Z:     0.137834
+
+gendstat:   Ethiopia_4500BP.SG                  WHG     0.120
+gendstat:   Ethiopia_4500BP.SG Russia_YuzhniyOleniyOstrov_Mesolithic.AG     0.212
+gendstat:   Ethiopia_4500BP.SG  Iran_GanjDareh_N.AG     0.116
+gendstat:   Ethiopia_4500BP.SG       Jordan_PPNB.AG    -0.022
+gendstat:   Ethiopia_4500BP.SG   Israel_Natufian.AG    -0.510
+gendstat:   Ethiopia_4500BP.SG Morocco_Iberomaurusian.AG     1.308
+gendstat:   Ethiopia_4500BP.SG Turkey_Marmara_Barcin_N.AG     0.232
+gendstat:   Ethiopia_4500BP.SG    Germany_EN_LBK.AG    -0.045
+gendstat:   Ethiopia_4500BP.SG Russia_Samara_EBA_Yamnaya.AG     0.472
+gendstat:   Ethiopia_4500BP.SG Italy_North_Remedello_C.SG     1.149
+gendstat:   Ethiopia_4500BP.SG Possible_Gauls_Verona    -1.428
+gendstat:   Ethiopia_4500BP.SG France_SouthEast_IA2.AG     0.164
+gendstat:   Ethiopia_4500BP.SG      Slovenia_EIA.AG     0.005
+gendstat:   Ethiopia_4500BP.SG       Croatia_EIA.AG     0.442
+gendstat:   Ethiopia_4500BP.SG Austria_IA_LaTene.AG     0.419
+gendstat:   Ethiopia_4500BP.SG Germany_Hallstat_IronAge.AG     0.370
+gendstat:   Ethiopia_4500BP.SG France_GrandEst_IA2.SG    -0.687
+gendstat:   Ethiopia_4500BP.SG France_Metz_GalloRoman.SG     0.180
+gendstat:   Ethiopia_4500BP.SG Germany_Hallstatt_Cisalpine.AG     0.138
+gendstat:                  WHG Russia_YuzhniyOleniyOstrov_Mesolithic.AG     0.095
+gendstat:                  WHG  Iran_GanjDareh_N.AG    -0.022
+gendstat:                  WHG       Jordan_PPNB.AG    -0.142
+gendstat:                  WHG   Israel_Natufian.AG    -0.635
+gendstat:                  WHG Morocco_Iberomaurusian.AG     1.048
+gendstat:                  WHG Turkey_Marmara_Barcin_N.AG     0.087
+gendstat:                  WHG    Germany_EN_LBK.AG    -0.210
+gendstat:                  WHG Russia_Samara_EBA_Yamnaya.AG     0.386
+gendstat:                  WHG Italy_North_Remedello_C.SG     1.123
+gendstat:                  WHG Possible_Gauls_Verona    -1.605
+gendstat:                  WHG France_SouthEast_IA2.AG     0.031
+gendstat:                  WHG      Slovenia_EIA.AG    -0.161
+gendstat:                  WHG       Croatia_EIA.AG     0.310
+gendstat:                  WHG Austria_IA_LaTene.AG     0.305
+gendstat:                  WHG Germany_Hallstat_IronAge.AG     0.248
+gendstat:                  WHG France_GrandEst_IA2.SG    -0.877
+gendstat:                  WHG France_Metz_GalloRoman.SG     0.063
+gendstat:                  WHG Germany_Hallstatt_Cisalpine.AG     0.019
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG  Iran_GanjDareh_N.AG    -0.118
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG       Jordan_PPNB.AG    -0.221
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG   Israel_Natufian.AG    -0.726
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Morocco_Iberomaurusian.AG     1.067
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Turkey_Marmara_Barcin_N.AG     0.001
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG    Germany_EN_LBK.AG    -0.336
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Russia_Samara_EBA_Yamnaya.AG     0.397
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Italy_North_Remedello_C.SG     1.095
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Possible_Gauls_Verona    -1.769
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG France_SouthEast_IA2.AG    -0.063
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG      Slovenia_EIA.AG    -0.315
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG       Croatia_EIA.AG     0.264
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Austria_IA_LaTene.AG     0.253
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Germany_Hallstat_IronAge.AG     0.185
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG France_GrandEst_IA2.SG    -1.070
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG France_Metz_GalloRoman.SG    -0.016
+gendstat: Russia_YuzhniyOleniyOstrov_Mesolithic.AG Germany_Hallstatt_Cisalpine.AG    -0.060
+gendstat:  Iran_GanjDareh_N.AG       Jordan_PPNB.AG    -0.130
+gendstat:  Iran_GanjDareh_N.AG   Israel_Natufian.AG    -0.636
+gendstat:  Iran_GanjDareh_N.AG Morocco_Iberomaurusian.AG     1.212
+gendstat:  Iran_GanjDareh_N.AG Turkey_Marmara_Barcin_N.AG     0.134
+gendstat:  Iran_GanjDareh_N.AG    Germany_EN_LBK.AG    -0.208
+gendstat:  Iran_GanjDareh_N.AG Russia_Samara_EBA_Yamnaya.AG     0.451
+gendstat:  Iran_GanjDareh_N.AG Italy_North_Remedello_C.SG     1.147
+gendstat:  Iran_GanjDareh_N.AG Possible_Gauls_Verona    -1.648
+gendstat:  Iran_GanjDareh_N.AG France_SouthEast_IA2.AG     0.058
+gendstat:  Iran_GanjDareh_N.AG      Slovenia_EIA.AG    -0.149
+gendstat:  Iran_GanjDareh_N.AG       Croatia_EIA.AG     0.393
+gendstat:  Iran_GanjDareh_N.AG Austria_IA_LaTene.AG     0.371
+gendstat:  Iran_GanjDareh_N.AG Germany_Hallstat_IronAge.AG     0.309
+gendstat:  Iran_GanjDareh_N.AG France_GrandEst_IA2.SG    -0.929
+gendstat:  Iran_GanjDareh_N.AG France_Metz_GalloRoman.SG     0.090
+gendstat:  Iran_GanjDareh_N.AG Germany_Hallstatt_Cisalpine.AG     0.045
+gendstat:       Jordan_PPNB.AG   Israel_Natufian.AG    -0.523
+gendstat:       Jordan_PPNB.AG Morocco_Iberomaurusian.AG     1.266
+gendstat:       Jordan_PPNB.AG Turkey_Marmara_Barcin_N.AG     0.279
+gendstat:       Jordan_PPNB.AG    Germany_EN_LBK.AG    -0.018
+gendstat:       Jordan_PPNB.AG Russia_Samara_EBA_Yamnaya.AG     0.479
+gendstat:       Jordan_PPNB.AG Italy_North_Remedello_C.SG     1.190
+gendstat:       Jordan_PPNB.AG Possible_Gauls_Verona    -1.404
+gendstat:       Jordan_PPNB.AG France_SouthEast_IA2.AG     0.183
+gendstat:       Jordan_PPNB.AG      Slovenia_EIA.AG     0.033
+gendstat:       Jordan_PPNB.AG       Croatia_EIA.AG     0.466
+gendstat:       Jordan_PPNB.AG Austria_IA_LaTene.AG     0.447
+gendstat:       Jordan_PPNB.AG Germany_Hallstat_IronAge.AG     0.400
+gendstat:       Jordan_PPNB.AG France_GrandEst_IA2.SG    -0.658
+gendstat:       Jordan_PPNB.AG France_Metz_GalloRoman.SG     0.208
+gendstat:       Jordan_PPNB.AG Germany_Hallstatt_Cisalpine.AG     0.159
+gendstat:   Israel_Natufian.AG Morocco_Iberomaurusian.AG     1.656
+gendstat:   Israel_Natufian.AG Turkey_Marmara_Barcin_N.AG     0.868
+gendstat:   Israel_Natufian.AG    Germany_EN_LBK.AG     0.617
+gendstat:   Israel_Natufian.AG Russia_Samara_EBA_Yamnaya.AG     0.979
+gendstat:   Israel_Natufian.AG Italy_North_Remedello_C.SG     1.601
+gendstat:   Israel_Natufian.AG Possible_Gauls_Verona    -0.859
+gendstat:   Israel_Natufian.AG France_SouthEast_IA2.AG     0.703
+gendstat:   Israel_Natufian.AG      Slovenia_EIA.AG     0.641
+gendstat:   Israel_Natufian.AG       Croatia_EIA.AG     1.006
+gendstat:   Israel_Natufian.AG Austria_IA_LaTene.AG     0.939
+gendstat:   Israel_Natufian.AG Germany_Hallstat_IronAge.AG     0.957
+gendstat:   Israel_Natufian.AG France_GrandEst_IA2.SG    -0.105
+gendstat:   Israel_Natufian.AG France_Metz_GalloRoman.SG     0.716
+gendstat:   Israel_Natufian.AG Germany_Hallstatt_Cisalpine.AG     0.658
+gendstat: Morocco_Iberomaurusian.AG Turkey_Marmara_Barcin_N.AG    -1.265
+gendstat: Morocco_Iberomaurusian.AG    Germany_EN_LBK.AG    -1.531
+gendstat: Morocco_Iberomaurusian.AG Russia_Samara_EBA_Yamnaya.AG    -0.872
+gendstat: Morocco_Iberomaurusian.AG Italy_North_Remedello_C.SG     0.168
+gendstat: Morocco_Iberomaurusian.AG Possible_Gauls_Verona    -2.464
+gendstat: Morocco_Iberomaurusian.AG France_SouthEast_IA2.AG    -1.132
+gendstat: Morocco_Iberomaurusian.AG      Slovenia_EIA.AG    -1.486
+gendstat: Morocco_Iberomaurusian.AG       Croatia_EIA.AG    -1.052
+gendstat: Morocco_Iberomaurusian.AG Austria_IA_LaTene.AG    -0.900
+gendstat: Morocco_Iberomaurusian.AG Germany_Hallstat_IronAge.AG    -1.104
+gendstat: Morocco_Iberomaurusian.AG France_GrandEst_IA2.SG    -2.009
+gendstat: Morocco_Iberomaurusian.AG France_Metz_GalloRoman.SG    -1.065
+gendstat: Morocco_Iberomaurusian.AG Germany_Hallstatt_Cisalpine.AG    -1.024
+gendstat: Turkey_Marmara_Barcin_N.AG    Germany_EN_LBK.AG    -0.799
+gendstat: Turkey_Marmara_Barcin_N.AG Russia_Samara_EBA_Yamnaya.AG     0.361
+gendstat: Turkey_Marmara_Barcin_N.AG Italy_North_Remedello_C.SG     1.279
+gendstat: Turkey_Marmara_Barcin_N.AG Possible_Gauls_Verona    -2.068
+gendstat: Turkey_Marmara_Barcin_N.AG France_SouthEast_IA2.AG    -0.075
+gendstat: Turkey_Marmara_Barcin_N.AG      Slovenia_EIA.AG    -0.459
+gendstat: Turkey_Marmara_Barcin_N.AG       Croatia_EIA.AG     0.389
+gendstat: Turkey_Marmara_Barcin_N.AG Austria_IA_LaTene.AG     0.324
+gendstat: Turkey_Marmara_Barcin_N.AG Germany_Hallstat_IronAge.AG     0.268
+gendstat: Turkey_Marmara_Barcin_N.AG France_GrandEst_IA2.SG    -1.202
+gendstat: Turkey_Marmara_Barcin_N.AG France_Metz_GalloRoman.SG    -0.020
+gendstat: Turkey_Marmara_Barcin_N.AG Germany_Hallstatt_Cisalpine.AG    -0.074
+gendstat:    Germany_EN_LBK.AG Russia_Samara_EBA_Yamnaya.AG     0.765
+gendstat:    Germany_EN_LBK.AG Italy_North_Remedello_C.SG     1.562
+gendstat:    Germany_EN_LBK.AG Possible_Gauls_Verona    -1.834
+gendstat:    Germany_EN_LBK.AG France_SouthEast_IA2.AG     0.319
+gendstat:    Germany_EN_LBK.AG      Slovenia_EIA.AG     0.109
+gendstat:    Germany_EN_LBK.AG       Croatia_EIA.AG     1.047
+gendstat:    Germany_EN_LBK.AG Austria_IA_LaTene.AG     0.711
+gendstat:    Germany_EN_LBK.AG Germany_Hallstat_IronAge.AG     0.889
+gendstat:    Germany_EN_LBK.AG France_GrandEst_IA2.SG    -0.931
+gendstat:    Germany_EN_LBK.AG France_Metz_GalloRoman.SG     0.319
+gendstat:    Germany_EN_LBK.AG Germany_Hallstatt_Cisalpine.AG     0.252
+gendstat: Russia_Samara_EBA_Yamnaya.AG Italy_North_Remedello_C.SG     0.929
+gendstat: Russia_Samara_EBA_Yamnaya.AG Possible_Gauls_Verona    -2.115
+gendstat: Russia_Samara_EBA_Yamnaya.AG France_SouthEast_IA2.AG    -0.409
+gendstat: Russia_Samara_EBA_Yamnaya.AG      Slovenia_EIA.AG    -0.794
+gendstat: Russia_Samara_EBA_Yamnaya.AG       Croatia_EIA.AG    -0.125
+gendstat: Russia_Samara_EBA_Yamnaya.AG Austria_IA_LaTene.AG    -0.042
+gendstat: Russia_Samara_EBA_Yamnaya.AG Germany_Hallstat_IronAge.AG    -0.232
+gendstat: Russia_Samara_EBA_Yamnaya.AG France_GrandEst_IA2.SG    -1.453
+gendstat: Russia_Samara_EBA_Yamnaya.AG France_Metz_GalloRoman.SG    -0.311
+gendstat: Russia_Samara_EBA_Yamnaya.AG Germany_Hallstatt_Cisalpine.AG    -0.336
+gendstat: Italy_North_Remedello_C.SG Possible_Gauls_Verona    -2.480
+gendstat: Italy_North_Remedello_C.SG France_SouthEast_IA2.AG    -1.182
+gendstat: Italy_North_Remedello_C.SG      Slovenia_EIA.AG    -1.475
+gendstat: Italy_North_Remedello_C.SG       Croatia_EIA.AG    -1.095
+gendstat: Italy_North_Remedello_C.SG Austria_IA_LaTene.AG    -0.948
+gendstat: Italy_North_Remedello_C.SG Germany_Hallstat_IronAge.AG    -1.163
+gendstat: Italy_North_Remedello_C.SG France_GrandEst_IA2.SG    -1.910
+gendstat: Italy_North_Remedello_C.SG France_Metz_GalloRoman.SG    -1.092
+gendstat: Italy_North_Remedello_C.SG Germany_Hallstatt_Cisalpine.AG    -1.119
+gendstat: Possible_Gauls_Verona France_SouthEast_IA2.AG     1.813
+gendstat: Possible_Gauls_Verona      Slovenia_EIA.AG     1.844
+gendstat: Possible_Gauls_Verona       Croatia_EIA.AG     2.206
+gendstat: Possible_Gauls_Verona Austria_IA_LaTene.AG     2.026
+gendstat: Possible_Gauls_Verona Germany_Hallstat_IronAge.AG     2.217
+gendstat: Possible_Gauls_Verona France_GrandEst_IA2.SG     0.871
+gendstat: Possible_Gauls_Verona France_Metz_GalloRoman.SG     1.732
+gendstat: Possible_Gauls_Verona Germany_Hallstatt_Cisalpine.AG     1.682
+gendstat: France_SouthEast_IA2.AG      Slovenia_EIA.AG    -0.251
+gendstat: France_SouthEast_IA2.AG       Croatia_EIA.AG     0.353
+gendstat: France_SouthEast_IA2.AG Austria_IA_LaTene.AG     0.322
+gendstat: France_SouthEast_IA2.AG Germany_Hallstat_IronAge.AG     0.267
+gendstat: France_SouthEast_IA2.AG France_GrandEst_IA2.SG    -1.001
+gendstat: France_SouthEast_IA2.AG France_Metz_GalloRoman.SG     0.039
+gendstat: France_SouthEast_IA2.AG Germany_Hallstatt_Cisalpine.AG    -0.009
+gendstat:      Slovenia_EIA.AG       Croatia_EIA.AG     0.911
+gendstat:      Slovenia_EIA.AG Austria_IA_LaTene.AG     0.666
+gendstat:      Slovenia_EIA.AG Germany_Hallstat_IronAge.AG     0.828
+gendstat:      Slovenia_EIA.AG France_GrandEst_IA2.SG    -1.002
+gendstat:      Slovenia_EIA.AG France_Metz_GalloRoman.SG     0.260
+gendstat:      Slovenia_EIA.AG Germany_Hallstatt_Cisalpine.AG     0.191
+gendstat:       Croatia_EIA.AG Austria_IA_LaTene.AG     0.064
+gendstat:       Croatia_EIA.AG Germany_Hallstat_IronAge.AG    -0.135
+gendstat:       Croatia_EIA.AG France_GrandEst_IA2.SG    -1.470
+gendstat:       Croatia_EIA.AG France_Metz_GalloRoman.SG    -0.245
+gendstat:       Croatia_EIA.AG Germany_Hallstatt_Cisalpine.AG    -0.301
+gendstat: Austria_IA_LaTene.AG Germany_Hallstat_IronAge.AG    -0.151
+gendstat: Austria_IA_LaTene.AG France_GrandEst_IA2.SG    -1.261
+gendstat: Austria_IA_LaTene.AG France_Metz_GalloRoman.SG    -0.256
+gendstat: Austria_IA_LaTene.AG Germany_Hallstatt_Cisalpine.AG    -0.312
+gendstat: Germany_Hallstat_IronAge.AG France_GrandEst_IA2.SG    -1.459
+gendstat: Germany_Hallstat_IronAge.AG France_Metz_GalloRoman.SG    -0.177
+gendstat: Germany_Hallstat_IronAge.AG Germany_Hallstatt_Cisalpine.AG    -0.235
+gendstat: France_GrandEst_IA2.SG France_Metz_GalloRoman.SG     0.960
+gendstat: France_GrandEst_IA2.SG Germany_Hallstatt_Cisalpine.AG     0.894
+gendstat: France_Metz_GalloRoman.SG Germany_Hallstatt_Cisalpine.AG    -0.045
+
+worst Z-score with right hand mix
+f4(Target, Fit, Base, mix of Right pops;  Z:     3.801 sum:     1.000
+                           WHG    -0.221
+Russia_YuzhniyOleniyOstrov_Mesolithic.AG    -0.558
+           Iran_GanjDareh_N.AG    -0.747
+                Jordan_PPNB.AG    -0.816
+            Israel_Natufian.AG    -1.335
+     Morocco_Iberomaurusian.AG     3.667
+    Turkey_Marmara_Barcin_N.AG     1.719
+             Germany_EN_LBK.AG    -3.485
+  Russia_Samara_EBA_Yamnaya.AG     2.255
+    Italy_North_Remedello_C.SG     2.631
+         Possible_Gauls_Verona    -3.632
+       France_SouthEast_IA2.AG     0.075
+               Slovenia_EIA.AG    -3.530
+                Croatia_EIA.AG     3.335
+          Austria_IA_LaTene.AG     0.679
+   Germany_Hallstat_IronAge.AG     4.153
+        France_GrandEst_IA2.SG    -3.462
+     France_Metz_GalloRoman.SG     0.150
+Germany_Hallstatt_Cisalpine.AG     0.123
+
+removing /tmp/fsx.800030
+oldmode set: terminating
+##end of qpAdm:        8.901 seconds cpu        9.183 Mbytes in use
+[2025-12-30T22:36:43Z] ✅ Target Piedmont.HO: success on attempt 1.
